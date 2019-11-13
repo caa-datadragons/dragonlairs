@@ -8,6 +8,7 @@
 @prefix wdt: <http://www.wikidata.org/prop/direct/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 
 # Nomisma
 lair:Y59I1LKF a rset:DataDragonLair .
@@ -116,3 +117,93 @@ lair:Z1UJ84T6 rset:hasType rset:Thesaurus.
 lair:Z1UJ84T6 rset:hasQuality rset:qualityHigh.
 lair:Z1UJ84T6 rset:lairGroup rset:chreferencethesauriGroup.
 lair:Z1UJ84T6 rset:language rset:en.
+
+# FISH Building Materials Thesaurus
+lair:64CLI5DJ a rset:DataDragonLair .
+lair:64CLI5DJ owl:sameAs wd:Q28934016.
+lair:64CLI5DJ rset:name 'FISH Building Materials Thesaurus'.
+lair:64CLI5DJ rset:wikidataid 'Q28934016'.
+lair:64CLI5DJ rset:description 'Terminology used for recording the main construction materials of monuments, buildings and structures relating to the built and buried heritage of the British Isles. Maintained by Historic England on behalf of the FISH Terminology Working Group'.
+lair:64CLI5DJ rset:author 'Historic England'.
+lair:64CLI5DJ rset:dateOfEntry '2019-11-13 15:55:14'.
+lair:64CLI5DJ rset:sparqlendpoint <http://heritagedata.org/live/sparql>.
+lair:64CLI5DJ rset:prefix <http://purl.org/heritagedata/schemes>.
+lair:64CLI5DJ rset:link <http://purl.org/heritagedata/schemes/eh_tbm>.
+lair:64CLI5DJ rset:lairState rset:active.
+lair:64CLI5DJ rset:hasLegalType rset:Administration.
+lair:64CLI5DJ rset:hasType rset:Thesaurus.
+lair:64CLI5DJ rset:hasQuality rset:qualityHigh.
+lair:64CLI5DJ rset:lairGroup rset:chreferencethesauriGroup.
+lair:64CLI5DJ rset:language rset:en.
+
+# FISH Event Types Thesaurus
+lair:JL74PXQR a rset:DataDragonLair .
+lair:JL74PXQR owl:sameAs wd:Q74828543.
+lair:JL74PXQR rset:name 'FISH Event Types Thesaurus'.
+lair:JL74PXQR rset:wikidataid 'Q74828543'.
+lair:JL74PXQR rset:description 'Terminology used for recording archaeological and architectural investigative, data collection exercises; from intrusive interventions to non damaging surveys'.
+lair:JL74PXQR rset:author 'Historic England'.
+lair:JL74PXQR rset:dateOfEntry '2019-11-13 15:56:12'.
+lair:JL74PXQR rset:sparqlendpoint <http://heritagedata.org/live/sparql>.
+lair:JL74PXQR rset:prefix <http://purl.org/heritagedata/schemes>.
+lair:JL74PXQR rset:link <https://heritagedata.org/live/schemes/agl_et>.
+lair:JL74PXQR rset:lairState rset:active.
+lair:JL74PXQR rset:hasLegalType rset:Administration.
+lair:JL74PXQR rset:hasType rset:Thesaurus.
+lair:JL74PXQR rset:hasQuality rset:qualityHigh.
+lair:JL74PXQR rset:lairGroup rset:chreferencethesauriGroup.
+lair:JL74PXQR rset:language rset:en.
+
+# FISH Archaeological Objects Thesaurus
+lair:BPI1TFY4 a rset:DataDragonLair .
+lair:BPI1TFY4 owl:sameAs wd:Q74829009.
+lair:BPI1TFY4 rset:name 'FISH Archaeological Objects Thesaurus'.
+lair:BPI1TFY4 rset:wikidataid 'Q74829009'.
+lair:BPI1TFY4 rset:description 'Originally developed by the Archaeological Objects Working Party and published by the mda. It provides guidance for the recording of archaeological objects in Britain and Ireland covering all historical periods.'.
+lair:BPI1TFY4 rset:author 'Historic England'.
+lair:BPI1TFY4 rset:dateOfEntry '2019-11-13 15:59:04'.
+lair:BPI1TFY4 rset:sparqlendpoint <http://heritagedata.org/live/sparql>.
+lair:BPI1TFY4 rset:prefix <http://purl.org/heritagedata/schemes>.
+lair:BPI1TFY4 rset:link <http://purl.org/heritagedata/schemes/mda_obj>.
+lair:BPI1TFY4 rset:lairState rset:active.
+lair:BPI1TFY4 rset:hasLegalType rset:Administration.
+lair:BPI1TFY4 rset:hasType rset:Thesaurus.
+lair:BPI1TFY4 rset:hasQuality rset:qualityHigh.
+lair:BPI1TFY4 rset:lairGroup rset:chreferencethesauriGroup.
+lair:BPI1TFY4 rset:language rset:en.
+
+# FISH Maritime Craft Types
+lair:NVNGJKZK a rset:DataDragonLair .
+lair:NVNGJKZK owl:sameAs wd:Q74829143.
+lair:NVNGJKZK rset:name 'FISH Maritime Craft Types'.
+lair:NVNGJKZK rset:wikidataid 'Q74829143'.
+lair:NVNGJKZK rset:description 'Used for recording types of watercraft which survive as wrecks or museums in Historic Englands maritime record.'.
+lair:NVNGJKZK rset:author 'Historic England'.
+lair:NVNGJKZK rset:dateOfEntry '2019-11-13 16:01:25'.
+lair:NVNGJKZK rset:sparqlendpoint <http://heritagedata.org/live/sparql>.
+lair:NVNGJKZK rset:prefix <http://purl.org/heritagedata/schemes>.
+lair:NVNGJKZK rset:link <http://purl.org/heritagedata/schemes/eh_tmc>.
+lair:NVNGJKZK rset:lairState rset:active.
+lair:NVNGJKZK rset:hasLegalType rset:Administration.
+lair:NVNGJKZK rset:hasType rset:Thesaurus.
+lair:NVNGJKZK rset:hasQuality rset:qualityHigh.
+lair:NVNGJKZK rset:lairGroup rset:chreferencethesauriGroup.
+lair:NVNGJKZK rset:language rset:en.
+
+# FISH Thesaurus of Monument Types
+lair:HJSIWQEV a rset:DataDragonLair .
+lair:HJSIWQEV owl:sameAs wd:Q74829266.
+lair:HJSIWQEV rset:name 'FISH Thesaurus of Monument Types'.
+lair:HJSIWQEV rset:wikidataid 'Q74829266'.
+lair:HJSIWQEV rset:description 'Terminology relating to the built and buried heritage of the British Isles and used for recording sites, monuments, buildings and structures.'.
+lair:HJSIWQEV rset:author 'Historic England'.
+lair:HJSIWQEV rset:dateOfEntry '2019-11-13 16:3:50'.
+lair:HJSIWQEV rset:sparqlendpoint <http://heritagedata.org/live/sparql>.
+lair:HJSIWQEV rset:prefix <http://purl.org/heritagedata/schemes>.
+lair:HJSIWQEV rset:link <http://purl.org/heritagedata/schemes/eh_tmt2>.
+lair:HJSIWQEV rset:lairState rset:active.
+lair:HJSIWQEV rset:hasLegalType rset:Administration.
+lair:HJSIWQEV rset:hasType rset:Thesaurus.
+lair:HJSIWQEV rset:hasQuality rset:qualityHigh.
+lair:HJSIWQEV rset:lairGroup rset:chreferencethesauriGroup.
+lair:HJSIWQEV rset:language rset:en.
