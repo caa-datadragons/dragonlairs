@@ -62,3 +62,21 @@ lair:ULBU3XXM rset:hasType rset:Thesaurus.
 lair:ULBU3XXM rset:hasQuality rset:qualityHigh.
 lair:ULBU3XXM rset:lairGroup rset:chreferencethesauriGroup.
 lair:ULBU3XXM rset:language rset:en.
+
+# Getty TGN
+lair:FY2117JU a rset:DataDragonLair .
+lair:FY2117JU owl:sameAs wd:Q1520117.
+lair:FY2117JU rset:name 'Getty TGN'.
+lair:FY2117JU rset:wikidataid 'Q1520117'.
+lair:FY2117JU rset:description 'Thesaurus of Geographic Names by the Getty Research Institute'.
+lair:FY2117JU rset:author 'Getty Research Institute'.
+lair:FY2117JU rset:dateOfEntry '2019-11-13 15:35:17'.
+lair:FY2117JU rset:sparqlendpoint <http://vocab.getty.edu/sparql>.
+lair:FY2117JU rset:prefix <http://vocab.getty.edu>.
+lair:FY2117JU rset:link <https://www.getty.edu/research/tools/vocabularies/tgn/>.
+lair:FY2117JU rset:lairState rset:active.
+lair:FY2117JU rset:hasLegalType rset:ResearchInstitution.
+lair:FY2117JU rset:hasType rset:Gazetteer.
+lair:FY2117JU rset:hasQuality rset:qualityHigh.
+lair:FY2117JU rset:lairGroup rset:chreferencethesauriGroup.
+lair:FY2117JU rset:language rset:en.
