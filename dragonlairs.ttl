@@ -1,0 +1,28 @@
+# Data Dragon Lairs
+# License: http://creativecommons.org/licenses/by/4.0/
+# Credits: Data Dragons SIG at CAA Community
+
+@prefix rset: <http://rsetools.squirrel.link#> .
+@prefix lair: <http://linkedpipes.xyz/dragonlairs#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+# Nomisma
+minion:Y59I1LKF a rset:DataDragonLair .
+minion:Y59I1LKF owl:sameAs wd:Q24578999.
+minion:Y59I1LKF rset:name 'Nomisma'.
+minion:Y59I1LKF rset:wikidataid 'Q24578999'.
+minion:Y59I1LKF rset:description 'Numismatic data project'.
+minion:Y59I1LKF rset:author 'American Numismatic Society et al.'.
+minion:Y59I1LKF rset:dateOfEntry '2019-11-13 12:12:59'.
+minion:Y59I1LKF rset:sparqlendpoint <http://nomisma.org/query>.
+minion:Y59I1LKF rset:apiendpoint <http://nomisma.org/apis/reconcile>.
+minion:Y59I1LKF rset:prefix <http://nomisma.org/id/>.
+minion:Y59I1LKF rset:link <http://nomisma.org/>.
+minion:Y59I1LKF rset:lairState rset:acvitive.
+minion:Y59I1LKF rset:hasLegalType rset:ResearchInstitution.
+minion:Y59I1LKF rset:hasType rset:Collection.
+minion:Y59I1LKF rset:hasQuality rset:qualityHigh.
+minion:Y59I1LKF rset:language rset:en.
