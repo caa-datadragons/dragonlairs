@@ -80,3 +80,21 @@ lair:FY2117JU rset:hasType rset:Gazetteer.
 lair:FY2117JU rset:hasQuality rset:qualityHigh.
 lair:FY2117JU rset:lairGroup rset:chreferencethesauriGroup.
 lair:FY2117JU rset:language rset:en.
+
+# Getty ULAN
+lair:VXCUI3HF a rset:DataDragonLair .
+lair:VXCUI3HF owl:sameAs wd:Q2494649.
+lair:VXCUI3HF rset:name 'Getty ULAN'.
+lair:VXCUI3HF rset:wikidataid 'Q2494649'.
+lair:VXCUI3HF rset:description 'thesaurus of artists and people by the Getty Research Institute'.
+lair:VXCUI3HF rset:author 'Getty Research Institute'.
+lair:VXCUI3HF rset:dateOfEntry '2019-11-13 15:37:22'.
+lair:VXCUI3HF rset:sparqlendpoint <http://vocab.getty.edu/sparql>.
+lair:VXCUI3HF rset:prefix <http://vocab.getty.edu>.
+lair:VXCUI3HF rset:link <https://www.getty.edu/research/tools/vocabularies/ulan/>.
+lair:VXCUI3HF rset:lairState rset:active.
+lair:VXCUI3HF rset:hasLegalType rset:ResearchInstitution.
+lair:VXCUI3HF rset:hasType rset:Thesaurus.
+lair:VXCUI3HF rset:hasQuality rset:qualityHigh.
+lair:VXCUI3HF rset:lairGroup rset:chreferencethesauriGroup.
+lair:VXCUI3HF rset:language rset:en.
