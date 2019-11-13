@@ -21,7 +21,7 @@ lair:Y59I1LKF rset:sparqlendpoint <http://nomisma.org/query>.
 lair:Y59I1LKF rset:apiendpoint <http://nomisma.org/apis/reconcile>.
 lair:Y59I1LKF rset:prefix <http://nomisma.org/id/>.
 lair:Y59I1LKF rset:link <http://nomisma.org/>.
-lair:Y59I1LKF rset:lairState rset:acvitive.
+lair:Y59I1LKF rset:lairState rset:active.
 lair:Y59I1LKF rset:hasLegalType rset:ResearchInstitution.
 lair:Y59I1LKF rset:hasType rset:Collection.
 lair:Y59I1LKF rset:hasQuality rset:qualityHigh.
