@@ -98,3 +98,21 @@ lair:VXCUI3HF rset:hasType rset:Thesaurus.
 lair:VXCUI3HF rset:hasQuality rset:qualityHigh.
 lair:VXCUI3HF rset:lairGroup rset:chreferencethesauriGroup.
 lair:VXCUI3HF rset:language rset:en.
+
+# FISH Archaeological Sciences Thesaurus
+lair:Z1UJ84T6 a rset:DataDragonLair .
+lair:Z1UJ84T6 owl:sameAs wd:Q74828362.
+lair:Z1UJ84T6 rset:name 'FISH Archaeological Sciences Thesaurus'.
+lair:Z1UJ84T6 rset:wikidataid 'Q74828362'.
+lair:Z1UJ84T6 rset:description 'Terminology used for recording the techniques, recovery methods and materials associated with archaeological sciences. Maintained by Historic England on behalf of the FISH Terminology Working Group.'.
+lair:Z1UJ84T6 rset:author 'Historic England'.
+lair:Z1UJ84T6 rset:dateOfEntry '2019-11-13 15:53:35'.
+lair:Z1UJ84T6 rset:sparqlendpoint <http://heritagedata.org/live/sparql>.
+lair:Z1UJ84T6 rset:prefix <http://purl.org/heritagedata/schemes>.
+lair:Z1UJ84T6 rset:link <http://purl.org/heritagedata/schemes/560>.
+lair:Z1UJ84T6 rset:lairState rset:active.
+lair:Z1UJ84T6 rset:hasLegalType rset:Administration.
+lair:Z1UJ84T6 rset:hasType rset:Thesaurus.
+lair:Z1UJ84T6 rset:hasQuality rset:qualityHigh.
+lair:Z1UJ84T6 rset:lairGroup rset:chreferencethesauriGroup.
+lair:Z1UJ84T6 rset:language rset:en.
