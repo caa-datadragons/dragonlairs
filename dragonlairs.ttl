@@ -44,3 +44,21 @@ lair:MZV1YFNY rset:hasLegalType rset:ResearchInstitution.
 lair:MZV1YFNY rset:hasType rset:Collection.
 lair:MZV1YFNY rset:hasQuality rset:qualityMedium.
 lair:MZV1YFNY rset:language rset:en.
+
+# Getty AAT
+lair:ULBU3XXM a rset:DataDragonLair .
+lair:ULBU3XXM owl:sameAs wd:Q611299.
+lair:ULBU3XXM rset:name 'Getty AAT'.
+lair:ULBU3XXM rset:wikidataid 'Q611299'.
+lair:ULBU3XXM rset:description 'controlled vocabulary used for describing items of art, architecture, and material culture'.
+lair:ULBU3XXM rset:author 'Getty Research Institute'.
+lair:ULBU3XXM rset:dateOfEntry '2019-11-13 15:15:29'.
+lair:ULBU3XXM rset:sparqlendpoint <http://vocab.getty.edu/sparql>.
+lair:ULBU3XXM rset:prefix <http://vocab.getty.edu>.
+lair:ULBU3XXM rset:link <https://www.getty.edu/research/tools/vocabularies/aat/>.
+lair:ULBU3XXM rset:lairState rset:active.
+lair:ULBU3XXM rset:hasLegalType rset:ResearchInstitution.
+lair:ULBU3XXM rset:hasType rset:Thesaurus.
+lair:ULBU3XXM rset:hasQuality rset:qualityHigh.
+lair:ULBU3XXM rset:lairGroup rset:chreferencethesauriGroup.
+lair:ULBU3XXM rset:language rset:en.
