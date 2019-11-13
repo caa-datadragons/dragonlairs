@@ -54,7 +54,7 @@ lair:ULBU3XXM rset:description 'controlled vocabulary used for describing items 
 lair:ULBU3XXM rset:author 'Getty Research Institute'.
 lair:ULBU3XXM rset:dateOfEntry '2019-11-13 15:15:29'.
 lair:ULBU3XXM rset:sparqlendpoint <http://vocab.getty.edu/sparql>.
-lair:ULBU3XXM rset:prefix <http://vocab.getty.edu>.
+lair:ULBU3XXM rset:prefix <http://vocab.getty.edu/aat>.
 lair:ULBU3XXM rset:link <https://www.getty.edu/research/tools/vocabularies/aat/>.
 lair:ULBU3XXM rset:lairState rset:active.
 lair:ULBU3XXM rset:hasLegalType rset:ResearchInstitution.
@@ -72,7 +72,7 @@ lair:FY2117JU rset:description 'Thesaurus of Geographic Names by the Getty Resea
 lair:FY2117JU rset:author 'Getty Research Institute'.
 lair:FY2117JU rset:dateOfEntry '2019-11-13 15:35:17'.
 lair:FY2117JU rset:sparqlendpoint <http://vocab.getty.edu/sparql>.
-lair:FY2117JU rset:prefix <http://vocab.getty.edu>.
+lair:FY2117JU rset:prefix <http://vocab.getty.edu/tgn>.
 lair:FY2117JU rset:link <https://www.getty.edu/research/tools/vocabularies/tgn/>.
 lair:FY2117JU rset:lairState rset:active.
 lair:FY2117JU rset:hasLegalType rset:ResearchInstitution.
@@ -90,7 +90,7 @@ lair:VXCUI3HF rset:description 'thesaurus of artists and people by the Getty Res
 lair:VXCUI3HF rset:author 'Getty Research Institute'.
 lair:VXCUI3HF rset:dateOfEntry '2019-11-13 15:37:22'.
 lair:VXCUI3HF rset:sparqlendpoint <http://vocab.getty.edu/sparql>.
-lair:VXCUI3HF rset:prefix <http://vocab.getty.edu>.
+lair:VXCUI3HF rset:prefix <http://vocab.getty.edu/ulan>.
 lair:VXCUI3HF rset:link <https://www.getty.edu/research/tools/vocabularies/ulan/>.
 lair:VXCUI3HF rset:lairState rset:active.
 lair:VXCUI3HF rset:hasLegalType rset:ResearchInstitution.
