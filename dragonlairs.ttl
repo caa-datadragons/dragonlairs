@@ -208,12 +208,6 @@ lair:HJSIWQEV rset:hasQuality rset:qualityHigh.
 lair:HJSIWQEV rset:lairGroup rset:chreferencethesauriGroup.
 lair:HJSIWQEV rset:language rset:en.
 
-@prefix rset: <http://rsetools.squirrel.link#> .
-@prefix lair: <http://linkedpipes.xyz/dragonlairs#> .
-@prefix wd: <http://www.wikidata.org/entity/> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-
 # Wikidata
 lair:7D2HP57S a rset:DataDragonLair .
 lair:7D2HP57S owl:sameAs wd:Q20950365.
