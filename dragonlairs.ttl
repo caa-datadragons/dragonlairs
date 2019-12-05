@@ -226,3 +226,22 @@ lair:7D2HP57S rset:hasType rset:Collection.
 lair:7D2HP57S rset:hasQuality rset:qualityHigh.
 lair:7D2HP57S rset:lairGroup rset:additionalinformationGroup.
 lair:7D2HP57S rset:language rset:en.
+
+# DBpedia
+lair:72Z52WB7 a rset:DataDragonLair .
+lair:72Z52WB7 owl:sameAs wd:Q465.
+lair:72Z52WB7 rset:name 'DBpedia'.
+lair:72Z52WB7 rset:wikidataid 'Q465'.
+lair:72Z52WB7 rset:description 'online database project'.
+lair:72Z52WB7 rset:author 'DBpedia Association'.
+lair:72Z52WB7 rset:dateOfEntry '2019-12-5 09:28:42'.
+lair:72Z52WB7 rset:sparqlendpoint <http://dbpedia.org/sparql>.
+lair:72Z52WB7 rset:apiendpoint <https://wiki.dbpedia.org/lookup>.
+lair:72Z52WB7 rset:prefix <http://dbpedia.org/ontology/>.
+lair:72Z52WB7 rset:link <https://wiki.dbpedia.org/>.
+lair:72Z52WB7 rset:lairState rset:active.
+lair:72Z52WB7 rset:hasLegalType rset:Community.
+lair:72Z52WB7 rset:hasType rset:Collection.
+lair:72Z52WB7 rset:hasQuality rset:qualityMedium.
+lair:72Z52WB7 rset:lairGroup rset:additionalinformationGroup.
+lair:72Z52WB7 rset:language rset:de.
