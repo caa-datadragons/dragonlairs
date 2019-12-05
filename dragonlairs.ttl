@@ -207,3 +207,28 @@ lair:HJSIWQEV rset:hasType rset:Thesaurus.
 lair:HJSIWQEV rset:hasQuality rset:qualityHigh.
 lair:HJSIWQEV rset:lairGroup rset:chreferencethesauriGroup.
 lair:HJSIWQEV rset:language rset:en.
+
+@prefix rset: <http://rsetools.squirrel.link#> .
+@prefix lair: <http://linkedpipes.xyz/dragonlairs#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+# Wikidata
+lair:7D2HP57S a rset:DataDragonLair .
+lair:7D2HP57S owl:sameAs wd:Q20950365.
+lair:7D2HP57S rset:name 'Wikidata'.
+lair:7D2HP57S rset:wikidataid 'Q20950365'.
+lair:7D2HP57S rset:description 'free knowledge database project hosted by Wikimedia and edited by volunteers'.
+lair:7D2HP57S rset:author ' Wikimedia Foundation'.
+lair:7D2HP57S rset:dateOfEntry '2019-12-5 09:10:51'.
+lair:7D2HP57S rset:sparqlendpoint <https://query.wikidata.org/sparql>.
+lair:7D2HP57S rset:apiendpoint <https://tools.wmflabs.org/openrefine-wikidata/en/api>.
+lair:7D2HP57S rset:prefix <http://www.wikidata.org/entity/>.
+lair:7D2HP57S rset:link <https://www.wikidata.org/>.
+lair:7D2HP57S rset:lairState rset:active.
+lair:7D2HP57S rset:hasLegalType rset:Community.
+lair:7D2HP57S rset:hasType rset:Collection.
+lair:7D2HP57S rset:hasQuality rset:qualityHigh.
+lair:7D2HP57S rset:lairGroup rset:additionalinformationGroup.
+lair:7D2HP57S rset:language rset:en.
