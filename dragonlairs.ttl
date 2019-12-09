@@ -245,3 +245,21 @@ lair:72Z52WB7 rset:hasType rset:Collection.
 lair:72Z52WB7 rset:hasQuality rset:qualityMedium.
 lair:72Z52WB7 rset:lairGroup rset:additionalinformationGroup.
 lair:72Z52WB7 rset:language rset:de.
+
+# Historic England Periods
+lair:2FMB88E9 a rset:DataDragonLair .
+lair:2FMB88E9 owl:sameAs wd:Q77938635.
+lair:2FMB88E9 rset:name 'Historic England Periods'.
+lair:2FMB88E9 rset:wikidataid 'Q77938635'.
+lair:2FMB88E9 rset:description 'Periods used in Historic England datasets'.
+lair:2FMB88E9 rset:author 'Historic England'.
+lair:2FMB88E9 rset:dateOfEntry '2019-12-9 11:39:26'.
+lair:2FMB88E9 rset:sparqlendpoint <http://heritagedata.org/live/sparql>.
+lair:2FMB88E9 rset:prefix <http://purl.org/heritagedata/schemes/eh_period/concepts/ >.
+lair:2FMB88E9 rset:link <http://purl.org/heritagedata/schemes/eh_period>.
+lair:2FMB88E9 rset:lairState rset:active.
+lair:2FMB88E9 rset:hasLegalType rset:Administration.
+lair:2FMB88E9 rset:hasType rset:Thesaurus.
+lair:2FMB88E9 rset:hasQuality rset:qualityHigh.
+lair:2FMB88E9 rset:language rset:en.
+
