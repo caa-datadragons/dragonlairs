@@ -2,8 +2,8 @@
 # License: http://creativecommons.org/licenses/by/4.0/
 # Credits: Data Dragons SIG at CAA Community
 
-@prefix rset: <http://rsetools.squirrel.link#> .
-@prefix lair: <http://linkedpipes.xyz/dragonlairs#> .
+@prefix hsq: <http://hungry.squirrel.link/ontology#> .
+@prefix lair: <http://lod.squirrel.link/data/dragonlair/> .
 @prefix wd: <http://www.wikidata.org/entity/> .
 @prefix wdt: <http://www.wikidata.org/prop/direct/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -11,255 +11,268 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 
 # Nomisma
-lair:Y59I1LKF a rset:DataDragonLair .
+lair:Y59I1LKF a hsq:DataDragonLair .
 lair:Y59I1LKF owl:sameAs wd:Q24578999.
-lair:Y59I1LKF rset:name 'Nomisma'.
-lair:Y59I1LKF rset:wikidataid 'Q24578999'.
-lair:Y59I1LKF rset:description 'Numismatic data project'.
-lair:Y59I1LKF rset:author 'American Numismatic Society et al.'.
-lair:Y59I1LKF rset:dateOfEntry '2019-11-13 12:12:59'.
-lair:Y59I1LKF rset:sparqlendpoint <http://nomisma.org/query>.
-lair:Y59I1LKF rset:apiendpoint <http://nomisma.org/apis/reconcile>.
-lair:Y59I1LKF rset:prefix <http://nomisma.org/id/>.
-lair:Y59I1LKF rset:link <http://nomisma.org/>.
-lair:Y59I1LKF rset:lairState rset:active.
-lair:Y59I1LKF rset:hasLegalType rset:ResearchInstitution.
-lair:Y59I1LKF rset:hasType rset:Collection.
-lair:Y59I1LKF rset:hasQuality rset:qualityHigh.
-lair:Y59I1LKF rset:language rset:en.
+lair:Y59I1LKF rdfs:label 'Nomisma'.
+lair:Y59I1LKF hsq:name 'Nomisma'.
+lair:Y59I1LKF hsq:wikidataid 'Q24578999'.
+lair:Y59I1LKF hsq:description 'Numismatic data project'.
+lair:Y59I1LKF hsq:author 'American Numismatic Society et al.'.
+lair:Y59I1LKF hsq:dateOfEntry '2019-11-13 12:12:59'.
+lair:Y59I1LKF hsq:sparqlendpoint <http://nomisma.org/query>.
+lair:Y59I1LKF hsq:apiendpoint <http://nomisma.org/apis/reconcile>.
+lair:Y59I1LKF hsq:prefix <http://nomisma.org/id/>.
+lair:Y59I1LKF hsq:link <http://nomisma.org/>.
+lair:Y59I1LKF hsq:lairState hsq:active.
+lair:Y59I1LKF hsq:hasLegalType hsq:ResearchInstitution.
+lair:Y59I1LKF hsq:hasType hsq:Collection.
+lair:Y59I1LKF hsq:hasQuality hsq:qualityHigh.
+lair:Y59I1LKF hsq:language hsq:en.
 
 # Kerameikos
-lair:MZV1YFNY a rset:DataDragonLair .
+lair:MZV1YFNY a hsq:DataDragonLair .
 lair:MZV1YFNY owl:sameAs wd:Q64576721.
-lair:MZV1YFNY rset:name 'Kerameikos'.
-lair:MZV1YFNY rset:wikidataid 'Q64576721'.
-lair:MZV1YFNY rset:description 'collaborative linked data project about pottery'.
-lair:MZV1YFNY rset:author 'Ethan Gruber et al.'.
-lair:MZV1YFNY rset:dateOfEntry '2019-11-13 15:10:53'.
-lair:MZV1YFNY rset:sparqlendpoint <http://kerameikos.org/sparql>.
-lair:MZV1YFNY rset:apiendpoint <http://kerameikos.org/apis/reconcile>.
-lair:MZV1YFNY rset:prefix <http://kerameikos.org/id/>.
-lair:MZV1YFNY rset:link <http://kerameikos.org/>.
-lair:MZV1YFNY rset:lairState rset:active.
-lair:MZV1YFNY rset:hasLegalType rset:ResearchInstitution.
-lair:MZV1YFNY rset:hasType rset:Collection.
-lair:MZV1YFNY rset:hasQuality rset:qualityMedium.
-lair:MZV1YFNY rset:language rset:en.
+lair:MZV1YFNY rdfs:label 'Kerameikos'.
+lair:MZV1YFNY hsq:name 'Kerameikos'.
+lair:MZV1YFNY hsq:wikidataid 'Q64576721'.
+lair:MZV1YFNY hsq:description 'collaborative linked data project about pottery'.
+lair:MZV1YFNY hsq:author 'Ethan Gruber et al.'.
+lair:MZV1YFNY hsq:dateOfEntry '2019-11-13 15:10:53'.
+lair:MZV1YFNY hsq:sparqlendpoint <http://kerameikos.org/sparql>.
+lair:MZV1YFNY hsq:apiendpoint <http://kerameikos.org/apis/reconcile>.
+lair:MZV1YFNY hsq:prefix <http://kerameikos.org/id/>.
+lair:MZV1YFNY hsq:link <http://kerameikos.org/>.
+lair:MZV1YFNY hsq:lairState hsq:active.
+lair:MZV1YFNY hsq:hasLegalType hsq:ResearchInstitution.
+lair:MZV1YFNY hsq:hasType hsq:Collection.
+lair:MZV1YFNY hsq:hasQuality hsq:qualityMedium.
+lair:MZV1YFNY hsq:language hsq:en.
 
 # Getty AAT
-lair:ULBU3XXM a rset:DataDragonLair .
+lair:ULBU3XXM a hsq:DataDragonLair .
 lair:ULBU3XXM owl:sameAs wd:Q611299.
-lair:ULBU3XXM rset:name 'Getty AAT'.
-lair:ULBU3XXM rset:wikidataid 'Q611299'.
-lair:ULBU3XXM rset:description 'controlled vocabulary used for describing items of art, architecture, and material culture'.
-lair:ULBU3XXM rset:author 'Getty Research Institute'.
-lair:ULBU3XXM rset:dateOfEntry '2019-11-13 15:15:29'.
-lair:ULBU3XXM rset:sparqlendpoint <http://vocab.getty.edu/sparql>.
-lair:ULBU3XXM rset:prefix <http://vocab.getty.edu/aat>.
-lair:ULBU3XXM rset:link <https://www.getty.edu/research/tools/vocabularies/aat/>.
-lair:ULBU3XXM rset:lairState rset:active.
-lair:ULBU3XXM rset:hasLegalType rset:ResearchInstitution.
-lair:ULBU3XXM rset:hasType rset:Thesaurus.
-lair:ULBU3XXM rset:hasQuality rset:qualityHigh.
-lair:ULBU3XXM rset:lairGroup rset:chreferencethesauriGroup.
-lair:ULBU3XXM rset:language rset:en.
+lair:ULBU3XXM rdfs:label 'Getty AAT'.
+lair:ULBU3XXM hsq:name 'Getty AAT'.
+lair:ULBU3XXM hsq:wikidataid 'Q611299'.
+lair:ULBU3XXM hsq:description 'controlled vocabulary used for describing items of art, architecture, and material culture'.
+lair:ULBU3XXM hsq:author 'Getty Research Institute'.
+lair:ULBU3XXM hsq:dateOfEntry '2019-11-13 15:15:29'.
+lair:ULBU3XXM hsq:sparqlendpoint <http://vocab.getty.edu/sparql>.
+lair:ULBU3XXM hsq:prefix <http://vocab.getty.edu/aat>.
+lair:ULBU3XXM hsq:link <https://www.getty.edu/research/tools/vocabularies/aat/>.
+lair:ULBU3XXM hsq:lairState hsq:active.
+lair:ULBU3XXM hsq:hasLegalType hsq:ResearchInstitution.
+lair:ULBU3XXM hsq:hasType hsq:Thesaurus.
+lair:ULBU3XXM hsq:hasQuality hsq:qualityHigh.
+lair:ULBU3XXM hsq:lairGroup hsq:chreferencethesauriGroup.
+lair:ULBU3XXM hsq:language hsq:en.
 
 # Getty TGN
-lair:FY2117JU a rset:DataDragonLair .
+lair:FY2117JU a hsq:DataDragonLair .
 lair:FY2117JU owl:sameAs wd:Q1520117.
-lair:FY2117JU rset:name 'Getty TGN'.
-lair:FY2117JU rset:wikidataid 'Q1520117'.
-lair:FY2117JU rset:description 'Thesaurus of Geographic Names by the Getty Research Institute'.
-lair:FY2117JU rset:author 'Getty Research Institute'.
-lair:FY2117JU rset:dateOfEntry '2019-11-13 15:35:17'.
-lair:FY2117JU rset:sparqlendpoint <http://vocab.getty.edu/sparql>.
-lair:FY2117JU rset:prefix <http://vocab.getty.edu/tgn>.
-lair:FY2117JU rset:link <https://www.getty.edu/research/tools/vocabularies/tgn/>.
-lair:FY2117JU rset:lairState rset:active.
-lair:FY2117JU rset:hasLegalType rset:ResearchInstitution.
-lair:FY2117JU rset:hasType rset:Gazetteer.
-lair:FY2117JU rset:hasQuality rset:qualityHigh.
-lair:FY2117JU rset:lairGroup rset:chreferencethesauriGroup.
-lair:FY2117JU rset:language rset:en.
+lair:FY2117JU rdfs:label 'Getty TGN'.
+lair:FY2117JU hsq:name 'Getty TGN'.
+lair:FY2117JU hsq:wikidataid 'Q1520117'.
+lair:FY2117JU hsq:description 'Thesaurus of Geographic Names by the Getty Research Institute'.
+lair:FY2117JU hsq:author 'Getty Research Institute'.
+lair:FY2117JU hsq:dateOfEntry '2019-11-13 15:35:17'.
+lair:FY2117JU hsq:sparqlendpoint <http://vocab.getty.edu/sparql>.
+lair:FY2117JU hsq:prefix <http://vocab.getty.edu/tgn>.
+lair:FY2117JU hsq:link <https://www.getty.edu/research/tools/vocabularies/tgn/>.
+lair:FY2117JU hsq:lairState hsq:active.
+lair:FY2117JU hsq:hasLegalType hsq:ResearchInstitution.
+lair:FY2117JU hsq:hasType hsq:Gazetteer.
+lair:FY2117JU hsq:hasQuality hsq:qualityHigh.
+lair:FY2117JU hsq:lairGroup hsq:chreferencethesauriGroup.
+lair:FY2117JU hsq:language hsq:en.
 
 # Getty ULAN
-lair:VXCUI3HF a rset:DataDragonLair .
+lair:VXCUI3HF a hsq:DataDragonLair .
 lair:VXCUI3HF owl:sameAs wd:Q2494649.
-lair:VXCUI3HF rset:name 'Getty ULAN'.
-lair:VXCUI3HF rset:wikidataid 'Q2494649'.
-lair:VXCUI3HF rset:description 'thesaurus of artists and people by the Getty Research Institute'.
-lair:VXCUI3HF rset:author 'Getty Research Institute'.
-lair:VXCUI3HF rset:dateOfEntry '2019-11-13 15:37:22'.
-lair:VXCUI3HF rset:sparqlendpoint <http://vocab.getty.edu/sparql>.
-lair:VXCUI3HF rset:prefix <http://vocab.getty.edu/ulan>.
-lair:VXCUI3HF rset:link <https://www.getty.edu/research/tools/vocabularies/ulan/>.
-lair:VXCUI3HF rset:lairState rset:active.
-lair:VXCUI3HF rset:hasLegalType rset:ResearchInstitution.
-lair:VXCUI3HF rset:hasType rset:Thesaurus.
-lair:VXCUI3HF rset:hasQuality rset:qualityHigh.
-lair:VXCUI3HF rset:lairGroup rset:chreferencethesauriGroup.
-lair:VXCUI3HF rset:language rset:en.
+lair:VXCUI3HF rdfs:label 'Getty ULAN'.
+lair:VXCUI3HF hsq:name 'Getty ULAN'.
+lair:VXCUI3HF hsq:wikidataid 'Q2494649'.
+lair:VXCUI3HF hsq:description 'thesaurus of artists and people by the Getty Research Institute'.
+lair:VXCUI3HF hsq:author 'Getty Research Institute'.
+lair:VXCUI3HF hsq:dateOfEntry '2019-11-13 15:37:22'.
+lair:VXCUI3HF hsq:sparqlendpoint <http://vocab.getty.edu/sparql>.
+lair:VXCUI3HF hsq:prefix <http://vocab.getty.edu/ulan>.
+lair:VXCUI3HF hsq:link <https://www.getty.edu/research/tools/vocabularies/ulan/>.
+lair:VXCUI3HF hsq:lairState hsq:active.
+lair:VXCUI3HF hsq:hasLegalType hsq:ResearchInstitution.
+lair:VXCUI3HF hsq:hasType hsq:Thesaurus.
+lair:VXCUI3HF hsq:hasQuality hsq:qualityHigh.
+lair:VXCUI3HF hsq:lairGroup hsq:chreferencethesauriGroup.
+lair:VXCUI3HF hsq:language hsq:en.
 
 # FISH Archaeological Sciences Thesaurus
-lair:Z1UJ84T6 a rset:DataDragonLair .
+lair:Z1UJ84T6 a hsq:DataDragonLair .
 lair:Z1UJ84T6 owl:sameAs wd:Q74828362.
-lair:Z1UJ84T6 rset:name 'FISH Archaeological Sciences Thesaurus'.
-lair:Z1UJ84T6 rset:wikidataid 'Q74828362'.
-lair:Z1UJ84T6 rset:description 'Terminology used for recording the techniques, recovery methods and materials associated with archaeological sciences. Maintained by Historic England on behalf of the FISH Terminology Working Group.'.
-lair:Z1UJ84T6 rset:author 'Historic England'.
-lair:Z1UJ84T6 rset:dateOfEntry '2019-11-13 15:53:35'.
-lair:Z1UJ84T6 rset:sparqlendpoint <http://heritagedata.org/live/sparql>.
-lair:Z1UJ84T6 rset:prefix <http://purl.org/heritagedata/schemes>.
-lair:Z1UJ84T6 rset:link <http://purl.org/heritagedata/schemes/560>.
-lair:Z1UJ84T6 rset:lairState rset:active.
-lair:Z1UJ84T6 rset:hasLegalType rset:Administration.
-lair:Z1UJ84T6 rset:hasType rset:Thesaurus.
-lair:Z1UJ84T6 rset:hasQuality rset:qualityHigh.
-lair:Z1UJ84T6 rset:lairGroup rset:chreferencethesauriGroup.
-lair:Z1UJ84T6 rset:language rset:en.
+lair:Z1UJ84T6 rdfs:label 'FISH Archaeological Sciences Thesaurus'.
+lair:Z1UJ84T6 hsq:name 'FISH Archaeological Sciences Thesaurus'.
+lair:Z1UJ84T6 hsq:wikidataid 'Q74828362'.
+lair:Z1UJ84T6 hsq:description 'Terminology used for recording the techniques, recovery methods and materials associated with archaeological sciences. Maintained by Historic England on behalf of the FISH Terminology Working Group.'.
+lair:Z1UJ84T6 hsq:author 'Historic England'.
+lair:Z1UJ84T6 hsq:dateOfEntry '2019-11-13 15:53:35'.
+lair:Z1UJ84T6 hsq:sparqlendpoint <http://heritagedata.org/live/sparql>.
+lair:Z1UJ84T6 hsq:prefix <http://purl.org/heritagedata/schemes>.
+lair:Z1UJ84T6 hsq:link <http://purl.org/heritagedata/schemes/560>.
+lair:Z1UJ84T6 hsq:lairState hsq:active.
+lair:Z1UJ84T6 hsq:hasLegalType hsq:Administration.
+lair:Z1UJ84T6 hsq:hasType hsq:Thesaurus.
+lair:Z1UJ84T6 hsq:hasQuality hsq:qualityHigh.
+lair:Z1UJ84T6 hsq:lairGroup hsq:chreferencethesauriGroup.
+lair:Z1UJ84T6 hsq:language hsq:en.
 
 # FISH Building Materials Thesaurus
-lair:64CLI5DJ a rset:DataDragonLair .
+lair:64CLI5DJ a hsq:DataDragonLair .
 lair:64CLI5DJ owl:sameAs wd:Q28934016.
-lair:64CLI5DJ rset:name 'FISH Building Materials Thesaurus'.
-lair:64CLI5DJ rset:wikidataid 'Q28934016'.
-lair:64CLI5DJ rset:description 'Terminology used for recording the main construction materials of monuments, buildings and structures relating to the built and buried heritage of the British Isles. Maintained by Historic England on behalf of the FISH Terminology Working Group'.
-lair:64CLI5DJ rset:author 'Historic England'.
-lair:64CLI5DJ rset:dateOfEntry '2019-11-13 15:55:14'.
-lair:64CLI5DJ rset:sparqlendpoint <http://heritagedata.org/live/sparql>.
-lair:64CLI5DJ rset:prefix <http://purl.org/heritagedata/schemes>.
-lair:64CLI5DJ rset:link <http://purl.org/heritagedata/schemes/eh_tbm>.
-lair:64CLI5DJ rset:lairState rset:active.
-lair:64CLI5DJ rset:hasLegalType rset:Administration.
-lair:64CLI5DJ rset:hasType rset:Thesaurus.
-lair:64CLI5DJ rset:hasQuality rset:qualityHigh.
-lair:64CLI5DJ rset:lairGroup rset:chreferencethesauriGroup.
-lair:64CLI5DJ rset:language rset:en.
+lair:64CLI5DJ rdfs:label 'FISH Building Materials Thesaurus'.
+lair:64CLI5DJ hsq:name 'FISH Building Materials Thesaurus'.
+lair:64CLI5DJ hsq:wikidataid 'Q28934016'.
+lair:64CLI5DJ hsq:description 'Terminology used for recording the main construction materials of monuments, buildings and structures relating to the built and buried heritage of the British Isles. Maintained by Historic England on behalf of the FISH Terminology Working Group'.
+lair:64CLI5DJ hsq:author 'Historic England'.
+lair:64CLI5DJ hsq:dateOfEntry '2019-11-13 15:55:14'.
+lair:64CLI5DJ hsq:sparqlendpoint <http://heritagedata.org/live/sparql>.
+lair:64CLI5DJ hsq:prefix <http://purl.org/heritagedata/schemes>.
+lair:64CLI5DJ hsq:link <http://purl.org/heritagedata/schemes/eh_tbm>.
+lair:64CLI5DJ hsq:lairState hsq:active.
+lair:64CLI5DJ hsq:hasLegalType hsq:Administration.
+lair:64CLI5DJ hsq:hasType hsq:Thesaurus.
+lair:64CLI5DJ hsq:hasQuality hsq:qualityHigh.
+lair:64CLI5DJ hsq:lairGroup hsq:chreferencethesauriGroup.
+lair:64CLI5DJ hsq:language hsq:en.
 
 # FISH Event Types Thesaurus
-lair:JL74PXQR a rset:DataDragonLair .
+lair:JL74PXQR a hsq:DataDragonLair .
 lair:JL74PXQR owl:sameAs wd:Q74828543.
-lair:JL74PXQR rset:name 'FISH Event Types Thesaurus'.
-lair:JL74PXQR rset:wikidataid 'Q74828543'.
-lair:JL74PXQR rset:description 'Terminology used for recording archaeological and architectural investigative, data collection exercises; from intrusive interventions to non damaging surveys'.
-lair:JL74PXQR rset:author 'Historic England'.
-lair:JL74PXQR rset:dateOfEntry '2019-11-13 15:56:12'.
-lair:JL74PXQR rset:sparqlendpoint <http://heritagedata.org/live/sparql>.
-lair:JL74PXQR rset:prefix <http://purl.org/heritagedata/schemes>.
-lair:JL74PXQR rset:link <https://heritagedata.org/live/schemes/agl_et>.
-lair:JL74PXQR rset:lairState rset:active.
-lair:JL74PXQR rset:hasLegalType rset:Administration.
-lair:JL74PXQR rset:hasType rset:Thesaurus.
-lair:JL74PXQR rset:hasQuality rset:qualityHigh.
-lair:JL74PXQR rset:lairGroup rset:chreferencethesauriGroup.
-lair:JL74PXQR rset:language rset:en.
+lair:JL74PXQR rdfs:label 'FISH Event Types Thesaurus'.
+lair:JL74PXQR hsq:name 'FISH Event Types Thesaurus'.
+lair:JL74PXQR hsq:wikidataid 'Q74828543'.
+lair:JL74PXQR hsq:description 'Terminology used for recording archaeological and architectural investigative, data collection exercises; from intrusive interventions to non damaging surveys'.
+lair:JL74PXQR hsq:author 'Historic England'.
+lair:JL74PXQR hsq:dateOfEntry '2019-11-13 15:56:12'.
+lair:JL74PXQR hsq:sparqlendpoint <http://heritagedata.org/live/sparql>.
+lair:JL74PXQR hsq:prefix <http://purl.org/heritagedata/schemes>.
+lair:JL74PXQR hsq:link <https://heritagedata.org/live/schemes/agl_et>.
+lair:JL74PXQR hsq:lairState hsq:active.
+lair:JL74PXQR hsq:hasLegalType hsq:Administration.
+lair:JL74PXQR hsq:hasType hsq:Thesaurus.
+lair:JL74PXQR hsq:hasQuality hsq:qualityHigh.
+lair:JL74PXQR hsq:lairGroup hsq:chreferencethesauriGroup.
+lair:JL74PXQR hsq:language hsq:en.
 
 # FISH Archaeological Objects Thesaurus
-lair:BPI1TFY4 a rset:DataDragonLair .
+lair:BPI1TFY4 a hsq:DataDragonLair .
 lair:BPI1TFY4 owl:sameAs wd:Q74829009.
-lair:BPI1TFY4 rset:name 'FISH Archaeological Objects Thesaurus'.
-lair:BPI1TFY4 rset:wikidataid 'Q74829009'.
-lair:BPI1TFY4 rset:description 'Originally developed by the Archaeological Objects Working Party and published by the mda. It provides guidance for the recording of archaeological objects in Britain and Ireland covering all historical periods.'.
-lair:BPI1TFY4 rset:author 'Historic England'.
-lair:BPI1TFY4 rset:dateOfEntry '2019-11-13 15:59:04'.
-lair:BPI1TFY4 rset:sparqlendpoint <http://heritagedata.org/live/sparql>.
-lair:BPI1TFY4 rset:prefix <http://purl.org/heritagedata/schemes>.
-lair:BPI1TFY4 rset:link <http://purl.org/heritagedata/schemes/mda_obj>.
-lair:BPI1TFY4 rset:lairState rset:active.
-lair:BPI1TFY4 rset:hasLegalType rset:Administration.
-lair:BPI1TFY4 rset:hasType rset:Thesaurus.
-lair:BPI1TFY4 rset:hasQuality rset:qualityHigh.
-lair:BPI1TFY4 rset:lairGroup rset:chreferencethesauriGroup.
-lair:BPI1TFY4 rset:language rset:en.
+lair:BPI1TFY4 rdfs:label 'FISH Archaeological Objects Thesaurus'.
+lair:BPI1TFY4 hsq:name 'FISH Archaeological Objects Thesaurus'.
+lair:BPI1TFY4 hsq:wikidataid 'Q74829009'.
+lair:BPI1TFY4 hsq:description 'Originally developed by the Archaeological Objects Working Party and published by the mda. It provides guidance for the recording of archaeological objects in Britain and Ireland covering all historical periods.'.
+lair:BPI1TFY4 hsq:author 'Historic England'.
+lair:BPI1TFY4 hsq:dateOfEntry '2019-11-13 15:59:04'.
+lair:BPI1TFY4 hsq:sparqlendpoint <http://heritagedata.org/live/sparql>.
+lair:BPI1TFY4 hsq:prefix <http://purl.org/heritagedata/schemes>.
+lair:BPI1TFY4 hsq:link <http://purl.org/heritagedata/schemes/mda_obj>.
+lair:BPI1TFY4 hsq:lairState hsq:active.
+lair:BPI1TFY4 hsq:hasLegalType hsq:Administration.
+lair:BPI1TFY4 hsq:hasType hsq:Thesaurus.
+lair:BPI1TFY4 hsq:hasQuality hsq:qualityHigh.
+lair:BPI1TFY4 hsq:lairGroup hsq:chreferencethesauriGroup.
+lair:BPI1TFY4 hsq:language hsq:en.
 
 # FISH Maritime Craft Types
-lair:NVNGJKZK a rset:DataDragonLair .
+lair:NVNGJKZK a hsq:DataDragonLair .
 lair:NVNGJKZK owl:sameAs wd:Q74829143.
-lair:NVNGJKZK rset:name 'FISH Maritime Craft Types'.
-lair:NVNGJKZK rset:wikidataid 'Q74829143'.
-lair:NVNGJKZK rset:description 'Used for recording types of watercraft which survive as wrecks or museums in Historic Englands maritime record.'.
-lair:NVNGJKZK rset:author 'Historic England'.
-lair:NVNGJKZK rset:dateOfEntry '2019-11-13 16:01:25'.
-lair:NVNGJKZK rset:sparqlendpoint <http://heritagedata.org/live/sparql>.
-lair:NVNGJKZK rset:prefix <http://purl.org/heritagedata/schemes>.
-lair:NVNGJKZK rset:link <http://purl.org/heritagedata/schemes/eh_tmc>.
-lair:NVNGJKZK rset:lairState rset:active.
-lair:NVNGJKZK rset:hasLegalType rset:Administration.
-lair:NVNGJKZK rset:hasType rset:Thesaurus.
-lair:NVNGJKZK rset:hasQuality rset:qualityHigh.
-lair:NVNGJKZK rset:lairGroup rset:chreferencethesauriGroup.
-lair:NVNGJKZK rset:language rset:en.
+lair:NVNGJKZK rdfs:label 'FISH Maritime Craft Types'.
+lair:NVNGJKZK hsq:name 'FISH Maritime Craft Types'.
+lair:NVNGJKZK hsq:wikidataid 'Q74829143'.
+lair:NVNGJKZK hsq:description 'Used for recording types of watercraft which survive as wrecks or museums in Historic Englands maritime record.'.
+lair:NVNGJKZK hsq:author 'Historic England'.
+lair:NVNGJKZK hsq:dateOfEntry '2019-11-13 16:01:25'.
+lair:NVNGJKZK hsq:sparqlendpoint <http://heritagedata.org/live/sparql>.
+lair:NVNGJKZK hsq:prefix <http://purl.org/heritagedata/schemes>.
+lair:NVNGJKZK hsq:link <http://purl.org/heritagedata/schemes/eh_tmc>.
+lair:NVNGJKZK hsq:lairState hsq:active.
+lair:NVNGJKZK hsq:hasLegalType hsq:Administration.
+lair:NVNGJKZK hsq:hasType hsq:Thesaurus.
+lair:NVNGJKZK hsq:hasQuality hsq:qualityHigh.
+lair:NVNGJKZK hsq:lairGroup hsq:chreferencethesauriGroup.
+lair:NVNGJKZK hsq:language hsq:en.
 
 # FISH Thesaurus of Monument Types
-lair:HJSIWQEV a rset:DataDragonLair .
+lair:HJSIWQEV a hsq:DataDragonLair .
 lair:HJSIWQEV owl:sameAs wd:Q74829266.
-lair:HJSIWQEV rset:name 'FISH Thesaurus of Monument Types'.
-lair:HJSIWQEV rset:wikidataid 'Q74829266'.
-lair:HJSIWQEV rset:description 'Terminology relating to the built and buried heritage of the British Isles and used for recording sites, monuments, buildings and structures.'.
-lair:HJSIWQEV rset:author 'Historic England'.
-lair:HJSIWQEV rset:dateOfEntry '2019-11-13 16:3:50'.
-lair:HJSIWQEV rset:sparqlendpoint <http://heritagedata.org/live/sparql>.
-lair:HJSIWQEV rset:prefix <http://purl.org/heritagedata/schemes>.
-lair:HJSIWQEV rset:link <http://purl.org/heritagedata/schemes/eh_tmt2>.
-lair:HJSIWQEV rset:lairState rset:active.
-lair:HJSIWQEV rset:hasLegalType rset:Administration.
-lair:HJSIWQEV rset:hasType rset:Thesaurus.
-lair:HJSIWQEV rset:hasQuality rset:qualityHigh.
-lair:HJSIWQEV rset:lairGroup rset:chreferencethesauriGroup.
-lair:HJSIWQEV rset:language rset:en.
+lair:HJSIWQEV rdfs:label 'FISH Thesaurus of Monument Types'.
+lair:HJSIWQEV hsq:name 'FISH Thesaurus of Monument Types'.
+lair:HJSIWQEV hsq:wikidataid 'Q74829266'.
+lair:HJSIWQEV hsq:description 'Terminology relating to the built and buried heritage of the British Isles and used for recording sites, monuments, buildings and structures.'.
+lair:HJSIWQEV hsq:author 'Historic England'.
+lair:HJSIWQEV hsq:dateOfEntry '2019-11-13 16:3:50'.
+lair:HJSIWQEV hsq:sparqlendpoint <http://heritagedata.org/live/sparql>.
+lair:HJSIWQEV hsq:prefix <http://purl.org/heritagedata/schemes>.
+lair:HJSIWQEV hsq:link <http://purl.org/heritagedata/schemes/eh_tmt2>.
+lair:HJSIWQEV hsq:lairState hsq:active.
+lair:HJSIWQEV hsq:hasLegalType hsq:Administration.
+lair:HJSIWQEV hsq:hasType hsq:Thesaurus.
+lair:HJSIWQEV hsq:hasQuality hsq:qualityHigh.
+lair:HJSIWQEV hsq:lairGroup hsq:chreferencethesauriGroup.
+lair:HJSIWQEV hsq:language hsq:en.
 
 # Wikidata
-lair:7D2HP57S a rset:DataDragonLair .
+lair:7D2HP57S a hsq:DataDragonLair .
 lair:7D2HP57S owl:sameAs wd:Q20950365.
-lair:7D2HP57S rset:name 'Wikidata'.
-lair:7D2HP57S rset:wikidataid 'Q20950365'.
-lair:7D2HP57S rset:description 'free knowledge database project hosted by Wikimedia and edited by volunteers'.
-lair:7D2HP57S rset:author ' Wikimedia Foundation'.
-lair:7D2HP57S rset:dateOfEntry '2019-12-5 09:10:51'.
-lair:7D2HP57S rset:sparqlendpoint <https://query.wikidata.org/sparql>.
-lair:7D2HP57S rset:apiendpoint <https://tools.wmflabs.org/openrefine-wikidata/en/api>.
-lair:7D2HP57S rset:prefix <http://www.wikidata.org/entity/>.
-lair:7D2HP57S rset:link <https://www.wikidata.org/>.
-lair:7D2HP57S rset:lairState rset:active.
-lair:7D2HP57S rset:hasLegalType rset:Community.
-lair:7D2HP57S rset:hasType rset:Collection.
-lair:7D2HP57S rset:hasQuality rset:qualityHigh.
-lair:7D2HP57S rset:lairGroup rset:additionalinformationGroup.
-lair:7D2HP57S rset:language rset:en.
+lair:7D2HP57S rdfs:label 'Wikidata'.
+lair:7D2HP57S hsq:name 'Wikidata'.
+lair:7D2HP57S hsq:wikidataid 'Q20950365'.
+lair:7D2HP57S hsq:description 'free knowledge database project hosted by Wikimedia and edited by volunteers'.
+lair:7D2HP57S hsq:author ' Wikimedia Foundation'.
+lair:7D2HP57S hsq:dateOfEntry '2019-12-5 09:10:51'.
+lair:7D2HP57S hsq:sparqlendpoint <https://query.wikidata.org/sparql>.
+lair:7D2HP57S hsq:apiendpoint <https://tools.wmflabs.org/openrefine-wikidata/en/api>.
+lair:7D2HP57S hsq:prefix <http://www.wikidata.org/entity/>.
+lair:7D2HP57S hsq:link <https://www.wikidata.org/>.
+lair:7D2HP57S hsq:lairState hsq:active.
+lair:7D2HP57S hsq:hasLegalType hsq:Community.
+lair:7D2HP57S hsq:hasType hsq:Collection.
+lair:7D2HP57S hsq:hasQuality hsq:qualityHigh.
+lair:7D2HP57S hsq:lairGroup hsq:additionalinformationGroup.
+lair:7D2HP57S hsq:language hsq:en.
 
 # DBpedia
-lair:72Z52WB7 a rset:DataDragonLair .
+lair:72Z52WB7 a hsq:DataDragonLair .
 lair:72Z52WB7 owl:sameAs wd:Q465.
-lair:72Z52WB7 rset:name 'DBpedia'.
-lair:72Z52WB7 rset:wikidataid 'Q465'.
-lair:72Z52WB7 rset:description 'online database project'.
-lair:72Z52WB7 rset:author 'DBpedia Association'.
-lair:72Z52WB7 rset:dateOfEntry '2019-12-5 09:28:42'.
-lair:72Z52WB7 rset:sparqlendpoint <http://dbpedia.org/sparql>.
-lair:72Z52WB7 rset:apiendpoint <https://wiki.dbpedia.org/lookup>.
-lair:72Z52WB7 rset:prefix <http://dbpedia.org/ontology/>.
-lair:72Z52WB7 rset:link <https://wiki.dbpedia.org/>.
-lair:72Z52WB7 rset:lairState rset:active.
-lair:72Z52WB7 rset:hasLegalType rset:Community.
-lair:72Z52WB7 rset:hasType rset:Collection.
-lair:72Z52WB7 rset:hasQuality rset:qualityMedium.
-lair:72Z52WB7 rset:lairGroup rset:additionalinformationGroup.
-lair:72Z52WB7 rset:language rset:de.
+lair:72Z52WB7 rdfs:label 'DBpedia'.
+lair:72Z52WB7 hsq:name 'DBpedia'.
+lair:72Z52WB7 hsq:wikidataid 'Q465'.
+lair:72Z52WB7 hsq:description 'online database project'.
+lair:72Z52WB7 hsq:author 'DBpedia Association'.
+lair:72Z52WB7 hsq:dateOfEntry '2019-12-5 09:28:42'.
+lair:72Z52WB7 hsq:sparqlendpoint <http://dbpedia.org/sparql>.
+lair:72Z52WB7 hsq:apiendpoint <https://wiki.dbpedia.org/lookup>.
+lair:72Z52WB7 hsq:prefix <http://dbpedia.org/ontology/>.
+lair:72Z52WB7 hsq:link <https://wiki.dbpedia.org/>.
+lair:72Z52WB7 hsq:lairState hsq:active.
+lair:72Z52WB7 hsq:hasLegalType hsq:Community.
+lair:72Z52WB7 hsq:hasType hsq:Collection.
+lair:72Z52WB7 hsq:hasQuality hsq:qualityMedium.
+lair:72Z52WB7 hsq:lairGroup hsq:additionalinformationGroup.
+lair:72Z52WB7 hsq:language hsq:de.
 
 # Historic England Periods
-lair:2FMB88E9 a rset:DataDragonLair .
+lair:2FMB88E9 a hsq:DataDragonLair .
 lair:2FMB88E9 owl:sameAs wd:Q77938635.
-lair:2FMB88E9 rset:name 'Historic England Periods'.
-lair:2FMB88E9 rset:wikidataid 'Q77938635'.
-lair:2FMB88E9 rset:description 'Periods used in Historic England datasets'.
-lair:2FMB88E9 rset:author 'Historic England'.
-lair:2FMB88E9 rset:dateOfEntry '2019-12-9 11:39:26'.
-lair:2FMB88E9 rset:sparqlendpoint <http://heritagedata.org/live/sparql>.
-lair:2FMB88E9 rset:prefix <http://purl.org/heritagedata/schemes/eh_period/concepts/ >.
-lair:2FMB88E9 rset:link <http://purl.org/heritagedata/schemes/eh_period>.
-lair:2FMB88E9 rset:lairState rset:active.
-lair:2FMB88E9 rset:hasLegalType rset:Administration.
-lair:2FMB88E9 rset:hasType rset:Thesaurus.
-lair:2FMB88E9 rset:hasQuality rset:qualityHigh.
-lair:2FMB88E9 rset:language rset:en.
-
+lair:2FMB88E9 rdfs:label 'Historic England Periods'.
+lair:2FMB88E9 hsq:name 'Historic England Periods'.
+lair:2FMB88E9 hsq:wikidataid 'Q77938635'.
+lair:2FMB88E9 hsq:description 'Periods used in Historic England datasets'.
+lair:2FMB88E9 hsq:author 'Historic England'.
+lair:2FMB88E9 hsq:dateOfEntry '2019-12-9 11:39:26'.
+lair:2FMB88E9 hsq:sparqlendpoint <http://heritagedata.org/live/sparql>.
+lair:2FMB88E9 hsq:prefix <http://purl.org/heritagedata/schemes/eh_period/concepts/ >.
+lair:2FMB88E9 hsq:link <http://purl.org/heritagedata/schemes/eh_period>.
+lair:2FMB88E9 hsq:lairState hsq:active.
+lair:2FMB88E9 hsq:hasLegalType hsq:Administration.
+lair:2FMB88E9 hsq:hasType hsq:Thesaurus.
+lair:2FMB88E9 hsq:hasQuality hsq:qualityHigh.
+lair:2FMB88E9 hsq:language hsq:en.
