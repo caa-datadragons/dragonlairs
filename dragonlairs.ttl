@@ -269,7 +269,7 @@ lair:2FMB88E9 hsq:description 'Periods used in Historic England datasets'.
 lair:2FMB88E9 hsq:author 'Historic England'.
 lair:2FMB88E9 hsq:dateOfEntry '2019-12-9 11:39:26'.
 lair:2FMB88E9 hsq:sparqlendpoint <http://heritagedata.org/live/sparql>.
-lair:2FMB88E9 hsq:prefix <http://purl.org/heritagedata/schemes/eh_period/concepts/ >.
+lair:2FMB88E9 hsq:prefix <http://purl.org/heritagedata/schemes/eh_period/concepts/>.
 lair:2FMB88E9 hsq:link <http://purl.org/heritagedata/schemes/eh_period>.
 lair:2FMB88E9 hsq:lairState hsq:active.
 lair:2FMB88E9 hsq:hasLegalType hsq:Administration.
